@@ -31,7 +31,6 @@ public class Zoological {
     }
 
 
-
     public void oldestAnimals() {
         Animal temp = animals.get(0);
         for (Animal animal : animals) {
