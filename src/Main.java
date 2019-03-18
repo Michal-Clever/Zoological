@@ -22,12 +22,12 @@ public class Main {
 
         zoo.oldestAnimals();
         zoo.youngestAnimals();
-        System.out.println("Oldest animal: " +zoo.getOldest());
-        System.out.println("Youngest animal: "+zoo.getYoungest());
+        System.out.println("Oldest animal: " + zoo.getOldest());
+        System.out.println("Youngest animal: " + zoo.getYoungest());
 
-        System.out.println("Animal Count: "+zoo.animalCount());
+        System.out.println("Animal Count: " + zoo.animalCount());
 
-        System.out.println("" + zoo.getAnimalCard("Tygrys"));
+        System.out.println("Animal Card: " + zoo.getAnimalCard("Żubr"));
 
         System.out.println(zoo.speciesAnimals());
     }

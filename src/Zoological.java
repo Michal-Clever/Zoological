@@ -11,9 +11,9 @@ public class Zoological {
         animals.add(animal);
     }
 
-    public Optional <Animal> getAnimalCard (String name){
+    public Optional<Animal> getAnimalCard(String name) {
         for (Animal animal : animals) {
-            if(animal.getName().equals(name)){
+            if (animal.getName().equals(name)) {
                 return Optional.of(animal);
             }
         }
@@ -21,9 +21,9 @@ public class Zoological {
     }
 
 
-    public Set<String> speciesAnimals (){
+    public Set<String> speciesAnimals() {
         Set<String> animalsSet = new HashSet<>();
-        for (int i =0; i< animals.size(); i++){
+        for (int i = 0; i < animals.size(); i++) {
             String species = animals.get(i).getSpecies();
             animalsSet.add(species);
         }
