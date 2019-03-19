@@ -30,6 +30,7 @@ public class Main {
         System.out.println("Animal Card: " + zoo.getAnimalCard("Żubr"));
 
         System.out.println(zoo.speciesAnimals());
+        System.out.println(zoo.getAnimals());
     }
 
 }
